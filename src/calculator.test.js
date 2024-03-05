@@ -6,8 +6,8 @@ describe("Calculator tests", () => {
       expect(mathOperations.sum(1, 2)).toBe(3);
     });
 
-    test('adding 1 + 2 should return 10', () => {
-        expect(mathOperations.sum(1, 2)).toBe(10);
+    test('adding 1 + 2 should return 3', () => {
+        expect(mathOperations.sum(1, 2)).toBe(3);
       });
 
     test('substraction 10 - 2 should return 8', () => {
